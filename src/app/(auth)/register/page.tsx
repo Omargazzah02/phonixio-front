@@ -10,6 +10,7 @@ export default function RegisterPage ( ) {
         lastName : '',
         email : '',
         password : ''
+
     })
 
       const [error, setError] = useState<string | null>(null);
@@ -62,6 +63,8 @@ export default function RegisterPage ( ) {
 
     return (
        <main className='flex justify-center items-center w-full h-screen flex-col space-y-7'>
+              <img src="/images/logo-mobelixy.png" alt=""  className='w-32'/>
+
 
         <h1 className='title'>Register</h1>
 
@@ -122,7 +125,9 @@ export default function RegisterPage ( ) {
 
        </main>
 
+
     )
+
 
 
 

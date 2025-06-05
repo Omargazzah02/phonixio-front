@@ -47,6 +47,7 @@ export default function LoginPage() {
 
   return (
     <main  className='flex justify-center items-center w-full h-screen flex-col space-y-7'>
+      <img src="/images/logo-mobelixy.png" alt=""  className='w-32'/>
       <h1 className='title'>Connexion</h1>
       <form onSubmit={handleSubmit} className='form'>
         <div className='div-input'>
